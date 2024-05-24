@@ -1,0 +1,15 @@
+=> to get the available destinations of an account <=
+http://127.0.0.1:8000/availabledestinations/?id="id of an account"
+
+
+
+=> for incoming data api <=
+api = http://127.0.0.1:8000/server/incoming_data/
+sample request body = {
+    "sample1":"dest1",
+    "sample2":"dest2"
+}
+
+request headers = {
+    "CL_X_TOKEN":"token of a existing account object in account table"
+}

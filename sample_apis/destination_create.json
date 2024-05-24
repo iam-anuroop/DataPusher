@@ -1,0 +1,12 @@
+{
+    "account": "id of a existing object in account table",  
+    "url": "https://destinationsample.com",
+    "http_method": "POST",
+    "headers": {
+        "APP_ID": "1234APPID1234",
+        "APP_SECRET": "no need of token",
+        "ACTION": "destination.create",
+        "Content-Type": "application/json",
+        "Accept": "*/*"
+    }
+}
